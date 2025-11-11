@@ -13,24 +13,39 @@ Genomic Prediction Tools for Animal and Plant Breeding
 
 ## Installation
 
+### From Github (for use)
+
+```r
+# Install devtools if not already installed
+install.packages("devtools")
+
+
+# Install breedRplus directly from GitHub
+devtools::install_github("higefee-218/BreedRplus")
+```
+
 ### From Source
 
 ```r
 # Install devtools if not already installed
 install.packages("devtools")
 
-# Install breedRplus
-devtools::install_github("higefee-218/BreedRplus")
-#devtools::install("path/to/breedRplus")
+# Set the working directory to the folder containing the package source
+setwd("path/to/BreedRplus")
+
+# Install the package from the source folder
+devtools::install(".")
 ```
 
-### Building the Package
+### Building the Package (optional, for developers)
 
 ```r
-# Build the package
+library(devtools)
+
+# Build a .tar.gz package
 devtools::build()
 
-# Or build and check
+# Run R CMD check to validate the package
 devtools::check()
 ```
 
