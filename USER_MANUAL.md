@@ -24,7 +24,7 @@ Version 0.0.0.9000
 
 ## Introduction
 
-`breedRplus` is a comprehensive R package designed for genomic prediction in plant and animal breeding programs. It provides a unified interface for multiple genomic prediction methods:
+`breedRplus` is a comprehensive R package designed for genomic prediction in animal and plant breeding programs. It provides a unified interface for multiple genomic prediction methods:
 
 - **GBLUP** (Genomic Best Linear Unbiased Prediction)
 - **Bayesian Methods** (BayesA, BayesB, BayesC, Bayesian Lasso)
@@ -221,6 +221,8 @@ data <- load_plink(
 - Phenotype data is automatically aligned to match genotype sample order
 - Only individuals present in both genotype and phenotype data are retained
 - The backing file stores genotype data efficiently for large datasets
+- It is highly recommended to trim your genotype and phenotype data and perform quality control before running the analysis.
+
 
 ---
 
@@ -1080,8 +1082,8 @@ Always report:
 
 ### Support
 
-- GitHub Issues: [Your repository URL]
-- Email: [Your email]
+- GitHub Issues: [[https://github.com/higefee-218/BreedRPlus.git]
+- Email: [higefee@gmail.com]
 
 ### Contributing
 
