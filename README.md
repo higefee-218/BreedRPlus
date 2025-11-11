@@ -1,4 +1,4 @@
-# breedRplus
+# BreedRplus
 
 Genomic Prediction Tools for Animal and Plant Breeding
 
