@@ -20,7 +20,7 @@ Genomic Prediction Tools for Animal and Plant Breeding
 install.packages("devtools")
 
 # Install breedRplus
-devtools::install_github("higefee-218/BreedRplus")
+ devtools::install_github("higefee-218/BreedRplus")
 #devtools::install("path/to/breedRplus")
 ```
 
