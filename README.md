@@ -303,5 +303,5 @@ pheno_file <- system.file("extdata", "500_ind_pheno.xlsx", package = "breedRplus
 
 ## Author
 
-[Fei Ge]
+Fei Ge, thanks to the LMMs! 
 
